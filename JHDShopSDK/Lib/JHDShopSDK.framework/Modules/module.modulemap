@@ -1,0 +1,6 @@
+framework module JHDShopSDK {
+  umbrella header "JHDShopSDK.h"
+
+  export *
+  module * { export * }
+}

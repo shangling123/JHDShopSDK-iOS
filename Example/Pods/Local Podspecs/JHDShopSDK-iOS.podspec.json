@@ -1,0 +1,32 @@
+{
+  "name": "JHDShopSDK",
+  "version": "0.1.0",
+  "summary": "A short description of JHDShopSDK-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qinhongjiang/JHDShopSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qinhongjiang": "qinhongjiang@jd.com"
+  },
+  "source": {
+    "git": "https://github.com/qinhongjiang/JHDShopSDK-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JHDShopSDK/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "JHDShopSDK": [
+      "JHDShopSDK/Resources/XIB/*.{xib}",
+      "JHDShopSDK/Resources/*.xcassets"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}
