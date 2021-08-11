@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'MapKit'
   s.vendored_frameworks = 'JHDShopSDK/Lib/JHDShopSDK.framework'
   s.resource = 'JHDShopSDK/Lib/JHDShopSDK.bundle'
+  s.dependency 'SVProgressHUD'
    
 
 end
