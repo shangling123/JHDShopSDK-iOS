@@ -26,7 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -36,6 +38,15 @@
             ReferencedContainer = "container:JHDShopSDK-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "89DDDD7041909C59567A4FE7CB02ACA1"
+            BuildableName = "JHDShopSDK"
+            BlueprintName = "JHDShopSDK"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -44,6 +55,16 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "JHDShopSDK-iOS_Tests.xctest"
                BlueprintName = "JHDShopSDK-iOS_Tests"
+               ReferencedContainer = "container:JHDShopSDK-iOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AAC5CA9126BBD1AF004D5C67"
+               BuildableName = "JHDShopSDK-iOS_UnitTests.xctest"
+               BlueprintName = "JHDShopSDK-iOS_UnitTests"
                ReferencedContainer = "container:JHDShopSDK-iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -1,5 +1,5 @@
 framework module JHDShopSDK {
-  umbrella header "JHDShopSDK.h"
+  umbrella header "JHDShopSDK-umbrella.h"
 
   export *
   module * { export * }

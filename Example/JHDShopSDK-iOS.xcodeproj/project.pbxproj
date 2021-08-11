@@ -7,35 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B39946F95532B19A9B6E14C /* Pods_JHDShopSDK_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D96EE07780DFC257D1A5D5 /* Pods_JHDShopSDK_iOS_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* JHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JHDAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* JHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JHDViewController.m */; };
+		6003F5A7195388D20070C39A /* JHDEXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JHDEXRootViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AA1752092680873C0073F57B /* JHDShopSDKDelegateImp.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1752072680873C0073F57B /* JHDShopSDKDelegateImp.m */; };
+		AA9711022681DACB00A1BED5 /* JHDEXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9711012681DACB00A1BED5 /* JHDEXLoginViewController.m */; };
 		C55B53CD1BA77063912A1ED6 /* Pods_JHDShopSDK_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10335AE1CA5A05754EF8EE1B /* Pods_JHDShopSDK_iOS_Example.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = "JHDShopSDK-iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0459F423CCAF6EDF7D97B146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -55,21 +39,19 @@
 		6003F59B195388D20070C39A /* JHDShopSDK-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JHDShopSDK-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* JHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHDAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* JHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* JHDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHDViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* JHDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* JHDEXRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHDEXRootViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* JHDEXRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDEXRootViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* JHDShopSDK-iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHDShopSDK-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		68D96EE07780DFC257D1A5D5 /* Pods_JHDShopSDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHDShopSDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA1752072680873C0073F57B /* JHDShopSDKDelegateImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDShopSDKDelegateImp.m; sourceTree = "<group>"; };
-		AA1752082680873C0073F57B /* JHDShopSDKDelegateImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDShopSDKDelegateImp.h; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		89F7999744BEF7DEC1246813 /* Pods-JHDShopSDK-iOS_UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHDShopSDK-iOS_UnitTests.release.xcconfig"; path = "Target Support Files/Pods-JHDShopSDK-iOS_UnitTests/Pods-JHDShopSDK-iOS_UnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA9711002681DACB00A1BED5 /* JHDEXLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHDEXLoginViewController.h; sourceTree = "<group>"; };
+		AA9711012681DACB00A1BED5 /* JHDEXLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDEXLoginViewController.m; sourceTree = "<group>"; };
 		EA5DDB259B13D53F6CAD8423 /* Pods-JHDShopSDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHDShopSDK-iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2AAA2457343097898C90BB7 /* Pods_JHDShopSDK_iOS_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHDShopSDK_iOS_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD30E649447EE058C73CFF /* Pods-JHDShopSDK-iOS_UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHDShopSDK-iOS_UnitTests.debug.xcconfig"; path = "Target Support Files/Pods-JHDShopSDK-iOS_UnitTests/Pods-JHDShopSDK-iOS_UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,17 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5B39946F95532B19A9B6E14C /* Pods_JHDShopSDK_iOS_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,7 +74,6 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JHDShopSDK-iOS */,
-				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				E66605A9E3E4D60BF8443D99 /* Pods */,
@@ -114,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* JHDShopSDK-iOS_Example.app */,
-				6003F5AE195388D20070C39A /* JHDShopSDK-iOS_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +97,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				10335AE1CA5A05754EF8EE1B /* Pods_JHDShopSDK_iOS_Example.framework */,
 				68D96EE07780DFC257D1A5D5 /* Pods_JHDShopSDK_iOS_Tests.framework */,
+				F2AAA2457343097898C90BB7 /* Pods_JHDShopSDK_iOS_UnitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,14 +105,10 @@
 		6003F593195388D20070C39A /* Example for JHDShopSDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AA1752062680873C0073F57B /* Imp */,
 				6003F59C195388D20070C39A /* JHDAppDelegate.h */,
 				6003F59D195388D20070C39A /* JHDAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* JHDViewController.h */,
-				6003F5A6195388D20070C39A /* JHDViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				AA9711032681DAFD00A1BED5 /* Controller */,
+				AA9711042681DB2000A1BED5 /* Resources */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for JHDShopSDK-iOS";
@@ -160,25 +126,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,13 +136,25 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AA1752062680873C0073F57B /* Imp */ = {
+		AA9711032681DAFD00A1BED5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA1752082680873C0073F57B /* JHDShopSDKDelegateImp.h */,
-				AA1752072680873C0073F57B /* JHDShopSDKDelegateImp.m */,
+				6003F5A5195388D20070C39A /* JHDEXRootViewController.h */,
+				6003F5A6195388D20070C39A /* JHDEXRootViewController.m */,
+				AA9711002681DACB00A1BED5 /* JHDEXLoginViewController.h */,
+				AA9711012681DACB00A1BED5 /* JHDEXLoginViewController.m */,
 			);
-			path = Imp;
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA9711042681DB2000A1BED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		E66605A9E3E4D60BF8443D99 /* Pods */ = {
@@ -205,6 +164,8 @@
 				EA5DDB259B13D53F6CAD8423 /* Pods-JHDShopSDK-iOS_Example.release.xcconfig */,
 				3A4D4E3426D39A3B1F8EF9CB /* Pods-JHDShopSDK-iOS_Tests.debug.xcconfig */,
 				3D8E018250A30137C2C021BD /* Pods-JHDShopSDK-iOS_Tests.release.xcconfig */,
+				F8BD30E649447EE058C73CFF /* Pods-JHDShopSDK-iOS_UnitTests.debug.xcconfig */,
+				89F7999744BEF7DEC1246813 /* Pods-JHDShopSDK-iOS_UnitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -221,7 +182,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				D289590039691E8A613763DD /* [CP] Embed Pods Frameworks */,
-				196595589DCB3A30E7756E65 /* [CP] Copy Pods Resources */,
+				B3CEC03091C29BE46215C184 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,25 +192,6 @@
 			productName = "JHDShopSDK-iOS";
 			productReference = 6003F58A195388D20070C39A /* JHDShopSDK-iOS_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6003F5AD195388D20070C39A /* JHDShopSDK-iOS_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JHDShopSDK-iOS_Tests" */;
-			buildPhases = (
-				7F65B8294531964613CC529E /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = "JHDShopSDK-iOS_Tests";
-			productName = "JHDShopSDK-iOSTests";
-			productReference = 6003F5AE195388D20070C39A /* JHDShopSDK-iOS_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -264,9 +206,6 @@
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 98Z8Z6VN82;
 						ProvisioningStyle = Manual;
-					};
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
@@ -285,7 +224,6 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* JHDShopSDK-iOS_Example */,
-				6003F5AD195388D20070C39A /* JHDShopSDK-iOS_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,35 +240,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		196595589DCB3A30E7756E65 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example-resources.sh",
-				"${PODS_ROOT}/../../JHDShopSDK/Lib/JHDShopSDK.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JHDShopSDK.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2E9C375992FAB68581C640EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,26 +265,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F65B8294531964613CC529E /* [CP] Check Pods Manifest.lock */ = {
+		B3CEC03091C29BE46215C184 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example-resources.sh",
+				"${PODS_ROOT}/../../JHDShopSDK/Lib/JHDShopSDK.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JHDShopSDK-iOS_Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JHDShopSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D289590039691E8A613763DD /* [CP] Embed Pods Frameworks */ = {
@@ -383,10 +291,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JHDShopSDK-iOS_Example/Pods-JHDShopSDK-iOS_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${PODS_ROOT}/../../JHDShopSDK/Lib/JHDShopSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHDShopSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -400,44 +312,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9711022681DACB00A1BED5 /* JHDEXLoginViewController.m in Sources */,
 				6003F59E195388D20070C39A /* JHDAppDelegate.m in Sources */,
-				AA1752092680873C0073F57B /* JHDShopSDKDelegateImp.m in Sources */,
-				6003F5A7195388D20070C39A /* JHDViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* JHDEXRootViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* JHDShopSDK-iOS_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -599,52 +487,6 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A4D4E3426D39A3B1F8EF9CB /* Pods-JHDShopSDK-iOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDShopSDK-iOS_Example.app/JHDShopSDK-iOS_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D8E018250A30137C2C021BD /* Pods-JHDShopSDK-iOS_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDShopSDK-iOS_Example.app/JHDShopSDK-iOS_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -662,15 +504,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JHDShopSDK-iOS_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
