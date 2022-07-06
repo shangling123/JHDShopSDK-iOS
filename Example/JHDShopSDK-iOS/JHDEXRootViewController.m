@@ -9,7 +9,7 @@
 #import "JHDEXRootViewController.h"
 #import "JHDEXLoginViewController.h"
 
-#import <JHDShopSDK/JHDShopSDK-umbrella.h>
+#import <JHDShopSDK/JHDShopSDK.h>
 #import <AFNetworking/AFNetworking.h>
 
 @interface JHDEXRootViewController ()<JHDShopSDKDelegate>

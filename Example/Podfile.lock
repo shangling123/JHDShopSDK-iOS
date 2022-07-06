@@ -14,7 +14,8 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - JHDShopSDK (0.1.1)
+  - JHDShopSDK (0.1.2):
+    - SVProgressHUD
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -33,9 +34,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  JHDShopSDK: 471f5c69339b539c4c14de629f075d86fb0cb599
+  JHDShopSDK: 4243733e1b8cdf36eb4e77c573c27df5c6a2b93b
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 57bb3b72ce6d483823ed5041556c65c9dc1b078e
+PODFILE CHECKSUM: ba4cb24222d3e41a38ed77dacb754fa825a9eb0c
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.11.2

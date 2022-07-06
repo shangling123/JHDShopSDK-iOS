@@ -6,10 +6,4 @@ target 'JHDShopSDK-iOS_Example' do
   pod 'JHDShopSDK', :path => '../'
   pod 'AFNetworking'
   pod 'SVProgressHUD'
-
-  target 'JHDShopSDK-iOS_UnitTests' do
-    inherit! :search_paths
-
-#    pod 'FBSnapshotTestCase'
-  end
 end
