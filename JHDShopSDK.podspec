@@ -33,6 +33,12 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'JHDShopSDK/Lib/JHDShopSDK.framework'
   s.resource = 'JHDShopSDK/Lib/JHDShopSDK.bundle'
   s.dependency 'SVProgressHUD'
-   
+#  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#      'VALID_ARCHS' => 'x86_64 armv7 arm64'
+    }
+ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ s.static_framework = true
 
 end
